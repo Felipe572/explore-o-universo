@@ -16,7 +16,7 @@ body {
     font-family: "Roboto", sans-serif;
     width: 100vw;
     height: 95.8vh;
-    /* background: url(assets/imagens/mountains-universe-1-1280.png) no-repeat; */
+    background: url(assets/imagens/mountains-universe-1-1280.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -81,6 +81,7 @@ button:hover {
     border: 2px solid #02799d;
     transform: scale(1.1);
 }
+
 
 #content {
     margin-left: 10rem;
