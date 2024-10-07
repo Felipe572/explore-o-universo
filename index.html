@@ -12,22 +12,25 @@
 <body>
     <header>
         <nav>
-            <img src="assets/imagens/Vector.png" alt="">
+            <a href="/index.html"><img src="assets/imagens/Vector.png" alt="Logomarca do site"></a>
             <a href="/">Home</a>
-            <a href="#">O Universo</a>
-            <a href="#">Exploração</a>
+            <a href="/universo" onclick="route()">O Universo</a>
+            <a href="/exploracao" onclick="route()">Exploração</a>
         </nav>
     </header>
 
     <main>
-        <div class="content"></div>
+        <div id="content"></div>
     </main>
 
-        <section>
-            <div class="main">
-                <h1>Explore o universo</h1>
-                <button>Quero saber mais</button>
-            </div>
-        </section>
+    <section>
+        <div class="main">
+            <h1>Explore o universo</h1>
+            <button>Quero saber mais</button>
+        </div>
+    </section>
+
+    <script src="js/index.js" type="module"></script>
+
 </body>
 </html>
