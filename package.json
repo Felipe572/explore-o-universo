@@ -1,0 +1,15 @@
+{
+  "name": "explore-o-universo",
+  "version": "1.0.0",
+  "description": "Site feito no módulo 6 no curso Explore da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
